@@ -84,5 +84,5 @@ gradient_anim = anim.FuncAnimation(fig, draw_gradient_points, frames=STEP_COUNT,
 blue_line = mlines.Line2D([], [], color='blue', marker='o',
                           markersize=15, label='vvitsenets')
 plt.legend(handles=[blue_line])
-plt.xlabel('my study progress')
+plt.xlabel('-')
 gradient_anim.save("animation.gif", writer="imagemagick")
